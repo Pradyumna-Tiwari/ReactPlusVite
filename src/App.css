@@ -1,0 +1,43 @@
+.header{
+  margin-top: 10px;
+  padding: 2px;
+}
+.login{
+  width: 100%;
+  padding: 20px;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.form-floating{
+  padding: 5px;
+}
+.fw-normal{
+  margin: 10px;
+}
+.btn{
+  padding: 2px;
+  margin: 2px;
+}
+.login-Button{
+  float:right 
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+  .card-container {
+      grid-template-columns: 1fr;
+  }
+}
